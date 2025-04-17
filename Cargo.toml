@@ -2,6 +2,8 @@
 edition = "2024"
 name = "dataparser_derive"
 version = "0.1.0"
+description = "The struct serialization/deserialization feature for dataparser_core"
+license = "MIT"
 
 [lib]
 name = "dataparser_derive"
