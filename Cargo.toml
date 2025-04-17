@@ -1,0 +1,14 @@
+[package]
+edition = "2024"
+name = "dataparser_derive"
+version = "0.1.0"
+
+[lib]
+name = "dataparser_derive"
+proc-macro = true
+
+[dependencies]
+quote = "1.0.40"
+syn = "2.0.100"
+paste = "1.0.15"
+proc-macro2 = "1.0.94"
